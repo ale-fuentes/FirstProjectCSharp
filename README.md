@@ -3,3 +3,6 @@
 ![](https://img.shields.io/badge/OS-Windows-informational?style=flat&logo=windows&logoColor=white&color=007acc)
 
 This project is for training with C#. I will Discovery this technology
+
+* [CLI](README_CLI.md)
+* [First Project](README_FirstProject.md)
