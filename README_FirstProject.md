@@ -1,5 +1,5 @@
 # Types of projects
-![](https://img.shields.io/badge/Code-C_Sharp-informational?style=flat&logo=csharp&logoColor=white&color=4a4c4d)
+![](https://img.shields.io/badge/Code-C_Sharp-informational?style=flat&logo=csharp&logoColor=white&color=007acc)
 
 * Class Library (DLLs)
 * Console Application (Bash)
