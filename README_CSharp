@@ -1,0 +1,117 @@
+# Types of projects
+![](https://img.shields.io/badge/Code-C_Sharp-informational?style=flat&logo=csharp&logoColor=white&color=007acc)
+
+[Return HOME](README.md)
+
+
+## Some Tips
+
+**dont use spacing or special character in names of program:**
+
+* Good: `MyApp`, `Orders`, `MeApp`.
+* Bad: `My App`, `$APP`, `App#Teste`.
+
+**ussing short path and without special character:**
+
+* Good: `C:\dev`, `C:\apps`.
+* Bad: `C:\way with some spaces special\My app`.
+
+**avoid net path**
+
+* `C:\dev` is a good option
+
+**C# are sensitive code**
+
+* C# can distinct between lowercase and uppercase
+* `Test` is different that `test`
+
+---
+
+## Structure of a class
+
+#### scope 
+
+* import: `using System`
+* namespace: is a logical division (similar name of folder where project where was created), `namespace MyApp`
+* class: similair name of file, `class Program`
+* main method: `static void Main(string[] args)`
+
+#### namespace
+
+* is a logical division of project.
+* cannot has two class with similar name inner a `namespace`.
+* scope of `namespace` are between brackets.
+* a `namespace` can be use for several files.
+* can create several `namespace` that wants.
+* `namespace` cannot has spaces or special character.
+* all word of name the `namespace`, init with upercase.
+* can has a `namespace` inner other separted with dot ".".
+* generallity `namespace` has a similar estructure to folders.
+* `namespace` are a keyword. 
+
+#### using
+
+* indicated wich library our class will using.
+* using are locationg in first line of file.
+* `using` are a keyword. 
+
+#### resumen
+
+* organization our project in folders and namespaces are fundamental.
+* in big applications, to value of code are high.
+* many files.
+* many people or cowokers working together in the same project
+* understing good this organization are fundamental.
+* Make extensive use of file creation and namespaces.
+
+---
+
+## Variavel
+
+**tips**
+
+* use cohesive names.
+* dont use special character or spaces.
+* cannot start name with a number.
+* the first letter of name is lowcase.
+
+
+Can use type or keyword `var`.
+
+```
+int age;            // is correct, init with default value, in int are ZERO
+int otherAge = 25;  // is correct, init with 25
+var sameAge = 25;   // is correct, init with 25
+var againAge;       // Erro, var need initialized
+```
+
+#### Const
+
+* use for content a information that can will using without modified.
+* cannot alter your content after created.
+* when creating a const variavel, it need set a value .
+* cannot using the keyword `var` for create constant.
+* constant are more otimized that variavel.
+* use cohesive names.
+* dont use special character or spaces.
+* dont start name with a number.
+* is comom using names in upercase separate entre underscore "_".
+* this idea is with a simple see, we know that this variavel are constant.
+
+
+```
+const int MIN_AGE = 20; // is correct, init const with 25.
+const int MAX_AGE;      // Erro, var need initialized.
+const var MAX_AGE = 20  // Erro, cannot use var with const.
+```
+
+#### KeyWord
+
+[C# Keywords](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/)
+
+
+#### comments
+
+* it is useful where I need say some thing about code.
+* `dotnet` cannot  execute it
+* comment can being: one line `//`, few lines `/* */`, and metadata (XML) `///`.
