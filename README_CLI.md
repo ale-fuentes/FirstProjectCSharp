@@ -13,3 +13,21 @@ dotnet --list-runtimes
 dotnet help
 ```
 
+#### Some principal command 
+
+To restore all packages that app need for running:
+```
+dotnet restore
+```
+To compile application
+```
+dotnet build
+```
+Clean the previous compilation
+```
+dotnet clean
+```
+To compile and running application:
+```
+dotnet run
+```
