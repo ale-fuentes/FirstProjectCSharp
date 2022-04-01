@@ -17,9 +17,6 @@ namespace APINetMongo
         [BsonElement("graduate")]
         public bool IsGraduate { get; set; }
 
-        [BsonElement("courses")]
-        public string[]? Courses { get; set; }
-
         [BsonElement("gender")]
         public string Gender { get; set; } = String.Empty;
 
